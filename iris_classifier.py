@@ -7,3 +7,7 @@ from metrics import accuracy_score
 iris = load_iris()
 x = iris.data
 y = iris.target
+
+
+#step 3
+(x_train, x_test, y_train, y_test) = train_test_split(test_size = 0.2, randome_state = 42)
