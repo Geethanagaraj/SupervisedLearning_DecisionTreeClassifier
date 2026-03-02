@@ -19,3 +19,6 @@ clf.fit(x_train, y_train)
 
 #step-5 : 
 y_pred = clf.predict(x_test)
+
+#step 6 :
+priint("Accuracy :" , accuracy_score(y_test, y_pred))
