@@ -1,6 +1,6 @@
 from sklearn.datasets import load_iris
-from sklean.model_selection import train_test_split
-from sklearn.Tree import DecisionTreeClassfier
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
 from metrics import accuracy_score
 
 #step 2
