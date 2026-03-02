@@ -1,7 +1,7 @@
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from metrics import accuracy_score
+from sklearn.metrics import accuracy_score
 
 #step 2
 iris = load_iris()
