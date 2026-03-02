@@ -11,3 +11,9 @@ y = iris.target
 
 #step 3
 (x_train, x_test, y_train, y_test) = train_test_split(test_size = 0.2, randome_state = 42)
+
+
+#step 4
+clf = DecisionTreeClassifier()
+clf.fit(x_train, y_train)
+
